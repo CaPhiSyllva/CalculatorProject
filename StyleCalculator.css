@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'fira code', monospace;
+    
+
+}
+
+:root{
+    --white: #fff;
+    --whitesmoke: #f9f9f9;
+    --light-grey: #ececec;
+    --grey: #c4c4c4;
+    --medium-grey: #a7a7a7;
+    --deep-grey: #343434;
+    --black: #000;
+    --blue: #1b77f3;
+    --red: #cf3c3f;
+}   
+
+body{
+    background-color: var(--white);
+}
+
+.color{
+    color: var(--red);
+}
+
+.color1{
+    color: var(--blue)
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.calculator{
+    width: 415px;
+    display: inline-block;
+   padding: 40px;
+   border-radius: 30px ;
+   background-color: var(--whitesmoke);
+   box-shadow: -6px -6px 9px var(--deep-grey), 11px 11px 21px -8px var(--deep-grey);
+}
+
+.calculator input{
+    width: 93%;
+    height: 45px;
+    margin: 8px;
+    border-radius: 20px;
+    font-size: 34px;
+    text-align: end;
+    border: none;
+    outline: 0;
+    background-color: var(--light-grey);
+    box-shadow:-5px -7px 9px var(--grey) 5px 11px 17px -13px var(--grey)  inset;
+}
+
+button{
+    border-radius: 50px;
+    font-size: 28px;
+    font-weight: 250;
+    background-color: var(--light-grey);
+    width: 60px;
+
+    height: 60px;
+    margin: 8px;
+    border: 0;
+    box-shadow: -6px -6px 9px var(--whitesmoke) 11px 11px 21px -8px var(--whitesmoke)  inset;
+    cursor: pointer;
+    outline: 0;
+}
+button:hover{
+    background-color: #d6d6d6;
+}
+.zero{
+    width: 145px;
+}
+
